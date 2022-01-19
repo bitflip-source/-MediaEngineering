@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MediaEngineering",
+			"Path": "D:\\GitHub\\-MediaEngineering\\MediaEngineering\\Source\\MediaEngineering.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MediaEngineeringEditor",
+			"Path": "D:\\GitHub\\-MediaEngineering\\MediaEngineering\\Source\\MediaEngineeringEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

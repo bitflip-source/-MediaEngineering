@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MediaEngineering-0200.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\MediaEngineeringEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\Life.cpp.obj"
+"D:\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\MediaEngineering.cpp.obj"
+"D:\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\Life.gen.cpp.obj"
+"D:\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\MediaEngineering.init.gen.cpp.obj"
+"D:\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\Default.rc2.res"
+/OUT:"D:\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\UE4Editor-MediaEngineering-0200.lib"
