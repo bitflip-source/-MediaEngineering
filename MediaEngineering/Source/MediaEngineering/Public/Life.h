@@ -17,13 +17,21 @@ class MEDIAENGINEERING_API ALife : public APlayerState
 
 public:
 	//Properties
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	int lifes;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	bool isalive;
 	//Functions
-	virtual int increaseLife();
-	virtual int increaseLife(int);
-	virtual int decreaseLife();
-	virtual int decreaseLife(int);
+
+	UFUNCTION(BlueprintCallable)
+	virtual int increaseLife(int addlifes);
+
+	UFUNCTION(BlueprintCallable)
+	virtual int decreaseLife(int sublifes);
+
+	UFUNCTION(BlueprintCallable)
+	virtual int fullLifes();
+
 	virtual void tick(float DeltaTime);
 	
 protected:

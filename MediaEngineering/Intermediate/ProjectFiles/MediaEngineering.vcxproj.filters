@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MediaEngineering.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E7EEA089-1CBE-4AA2-9A4F-6AA542569104}</UniqueIdentifier>
+      <UniqueIdentifier>{63426FAE-997F-40CD-A987-A08BF44E5E9F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MediaEngineering.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F6AAFF67-AAC4-4034-8883-F63BBC0E2A0E}</UniqueIdentifier>
+      <UniqueIdentifier>{122F1B65-4D81-428A-A650-3172B0860CAC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\SteamVRBindings">
-      <UniqueIdentifier>{2257F30D-0BA8-4CD7-AF66-F134E1690F24}</UniqueIdentifier>
+      <UniqueIdentifier>{2AB5147F-1F1D-4D3B-94B5-0DB3453D6860}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\SteamVRBindings\gamepad.json">
       <Filter>Config\SteamVRBindings</Filter>
@@ -114,7 +114,7 @@
       <Filter>Config\SteamVRBindings</Filter>
     </None>
     <Filter Include="Source\MediaEngineering">
-      <UniqueIdentifier>{5CCD83D6-B048-4209-9E45-DCEF23C92456}</UniqueIdentifier>
+      <UniqueIdentifier>{341AC2E3-9470-4253-80C0-905DA52E0591}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MediaEngineering\MediaEngineering.Build.cs">
       <Filter>Source\MediaEngineering</Filter>
@@ -126,16 +126,23 @@
       <Filter>Source\MediaEngineering</Filter>
     </ClInclude>
     <Filter Include="Source\MediaEngineering\Private">
-      <UniqueIdentifier>{37F9E2EF-1A1E-469F-8683-8C95BC9EE50A}</UniqueIdentifier>
+      <UniqueIdentifier>{455A720D-A1A9-4EAF-AA58-E279F54AC6BC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MediaEngineering\Private\Life.cpp">
       <Filter>Source\MediaEngineering\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MediaEngineering\Private\Time.cpp">
+      <Filter>Source\MediaEngineering\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\MediaEngineering\Public">
-      <UniqueIdentifier>{AA2934CA-1AB6-4D6B-8D46-87CC3E45BCC6}</UniqueIdentifier>
+      <UniqueIdentifier>{930BBE9D-18C3-4D0D-B738-8F835B247B62}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MediaEngineering\Public\Life.h">
       <Filter>Source\MediaEngineering\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\MediaEngineering\Public\Time.h">
+      <Filter>Source\MediaEngineering\Public</Filter>
+    </ClInclude>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

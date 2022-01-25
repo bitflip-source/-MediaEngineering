@@ -14,8 +14,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MEDIAENGINEERING_Life_generated_h
 
 #define MediaEngineering_Source_MediaEngineering_Public_Life_h_15_SPARSE_DATA
-#define MediaEngineering_Source_MediaEngineering_Public_Life_h_15_RPC_WRAPPERS
-#define MediaEngineering_Source_MediaEngineering_Public_Life_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define MediaEngineering_Source_MediaEngineering_Public_Life_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execfullLifes); \
+	DECLARE_FUNCTION(execdecreaseLife); \
+	DECLARE_FUNCTION(execincreaseLife);
+
+
+#define MediaEngineering_Source_MediaEngineering_Public_Life_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execfullLifes); \
+	DECLARE_FUNCTION(execdecreaseLife); \
+	DECLARE_FUNCTION(execincreaseLife);
+
+
 #define MediaEngineering_Source_MediaEngineering_Public_Life_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALife(); \
