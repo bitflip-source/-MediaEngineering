@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\GitHub\\-MediaEngineering\\MediaEngineering\\Source\\MediaEngineering\\MediaEngineering.Build.cs",
-		"D:\\GitHub\\-MediaEngineering\\MediaEngineering\\Source\\MediaEngineering.Target.cs",
-		"D:\\GitHub\\-MediaEngineering\\MediaEngineering\\Source\\MediaEngineeringEditor.Target.cs"
+		"C:\\Users\\Main\\Documents\\GitHub\\-MediaEngineering\\MediaEngineering\\Source\\MediaEngineering\\MediaEngineering.Build.cs",
+		"C:\\Users\\Main\\Documents\\GitHub\\-MediaEngineering\\MediaEngineering\\Source\\MediaEngineering.Target.cs",
+		"C:\\Users\\Main\\Documents\\GitHub\\-MediaEngineering\\MediaEngineering\\Source\\MediaEngineeringEditor.Target.cs"
 	],
-	"EngineVersion": "4.27.2"
+	"EngineVersion": "4.27.1"
 }
