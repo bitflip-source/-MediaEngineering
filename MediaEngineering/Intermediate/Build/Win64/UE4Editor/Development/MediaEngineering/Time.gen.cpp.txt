@@ -1,7 +1,7 @@
-C:\Users\Main\Documents\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\Definitions.MediaEngineering.h
+D:\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\Definitions.MediaEngineering.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Main\Documents\GitHub\-MediaEngineering\MediaEngineering\Source\MediaEngineering/Public/Time.h
+D:\GitHub\-MediaEngineering\MediaEngineering\Source\MediaEngineering/Public/Time.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
-C:\Users\Main\Documents\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Inc\MediaEngineering\Time.generated.h
+D:\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Inc\MediaEngineering\Time.generated.h
