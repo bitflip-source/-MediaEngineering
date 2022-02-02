@@ -25,9 +25,7 @@ public:
 	// Sets default values for this actor's properties
 	ATime();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+
 
 public:
 	// Called every frame
@@ -40,6 +38,9 @@ public:
 
 	void LevelTimer();
 
+protected:
+	// Called when the game starts or when spawned
+	void BeginPlay() override;
 	//UFUNCTION(BlueprintNativeEvent)
 	//void LevelTimeExpired();
 

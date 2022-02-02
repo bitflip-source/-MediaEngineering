@@ -1,0 +1,14 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\git).
+  Building MediaEngineeringEditor...
+  Using Visual Studio 2019 14.29.30139 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 8 processes...
+    [1/6] MediaEngineering.init.gen.cpp
+    [2/6] Life.cpp
+    [3/6] Life.gen.cpp
+    [4/6] UE4Editor-MediaEngineering.lib
+       Bibliothek "D:\git\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\UE4Editor-MediaEngineering.lib" und Objekt "D:\git\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\UE4Editor-MediaEngineering.exp" werden erstellt.
+    [5/6] UE4Editor-MediaEngineering.dll
+       Bibliothek "D:\git\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\UE4Editor-MediaEngineering.suppressed.lib" und Objekt "D:\git\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\UE4Editor-MediaEngineering.suppressed.exp" werden erstellt.
+    [6/6] MediaEngineeringEditor.target
+  Total time in Parallel executor: 2,77 seconds
+  Total execution time: 3,85 seconds

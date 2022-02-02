@@ -1,3 +1,0 @@
-C:\Users\Main\Documents\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Development\MediaEngineering\Definitions.MediaEngineering.h
-C:\Users\Main\Documents\GitHub\-MediaEngineering\MediaEngineering\Source\MediaEngineering\Public\Status.h
-C:\Users\Main\Documents\GitHub\-MediaEngineering\MediaEngineering\Intermediate\Build\Win64\UE4Editor\Inc\MediaEngineering\Status.generated.h
