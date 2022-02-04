@@ -1,17 +1,22 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
-/**/
 #include "Life.h"
+/*
+Verwaltung der zur Verfügung stehenden Leben.
+*/
 
-
-//Decreases lifes
+/*
+Die Anzahl der Leben erhöhen. Default Wert ist 1 wenn kein Wert für addlifes angegeben wird.
+*/
 int ALife::increaseLife(int addlifes = 1)
 {
 	lifes = lifes + addlifes;
 	return lifes;
 }
 
-//Increases lifes 
+/*
+Die Anzahl der Leben verringern. Default Wert ist 1 wenn kein Wert für addlifes angegeben wird.
+Es wird überprüft ob die Leben verbraucht sind. Sind die Leben aufgebraucht wird isalive auf false gesetzt.
+*/
 int ALife::decreaseLife(int sublifes = 1)
 {
 	lifes = lifes - sublifes;
@@ -19,7 +24,9 @@ int ALife::decreaseLife(int sublifes = 1)
 	return sublifes;
 }
 
-//Controls every tick if the character is still alive.
+/*
+Für den Fall das aus Blueprint herraus die lifes direkt geändert wird, wird ständig überprüft ob noch Leben da sind.
+*/
 void ALife::tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -29,7 +36,9 @@ void ALife::tick(float DeltaTime)
 	//destroy character
 }
 
-//Sets character life on maxlifes.
+/*
+Die Leben werden auf den Maximalwert gesetzt. 
+*/
 int ALife::fullLifes()
 {
 	lifes = maxlifes;
@@ -37,12 +46,7 @@ int ALife::fullLifes()
 
 }
 
-//Sets character life on full and the isalive on true when the game starts.
-void ALife::BeginPlay()
-{
-	isalive = true;
-	fullLifes();
-}
+
 
 
 

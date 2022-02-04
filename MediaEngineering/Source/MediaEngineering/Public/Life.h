@@ -1,4 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -35,6 +34,6 @@ public:
 	virtual void tick(float DeltaTime);
 	
 protected:
-	virtual void BeginPlay()override;
+	//virtual void BeginPlay()override;
 	const int maxlifes = 3;
 };

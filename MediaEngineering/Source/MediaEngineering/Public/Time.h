@@ -1,4 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -19,6 +18,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 		int32 levelTime;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool timeexpired;
+
 
 
 
@@ -29,12 +31,12 @@ public:
 
 public:
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
-		void setLevelTime(int levelTimeSet);
+	void setLevelTime(int levelTimeSet);
 
-	void UpdateLevelTime();
+	//void UpdateLevelTime();
 
 	void LevelTimer();
 
